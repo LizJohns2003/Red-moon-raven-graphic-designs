@@ -29,6 +29,8 @@ html{
    font-family: 'Raleway', sans-serif;
 }
 
+
+
 .banner{
    width: 100%;
    height: auto;
@@ -38,25 +40,27 @@ html{
 }
 
 main{
-   margin-left: 15%;
-   margin-right: 15%;
-   text-align: center;
+   margin-left: 10%;
+   margin-right: 20%;
+   text-align: left;
 }
 
 .poster-examples{
-   width: 100%;
+   width: 50%;
    height: auto;
    display: flex;
-   align-content: center;
-   background-color: black;
+   justify-content: left;
+   margin: 0%;
 }
 
 .our-mission{
+
    background-color: black;
    color: white;
-   margin-left: 15%;
+   margin-left: 0%;
    margin-right: 15%;
    padding: 5%;
+   
 }
 
 .about-liz>img{
@@ -66,14 +70,14 @@ margin: 2%;
 }
 
 .about-liz{
-   display: flex;
    background-color: rgb(210, 209, 209);
-   padding: 10%;
+   padding: 2%;
    margin-top: 5%;
    margin-bottom: 0%;
    text-align: left;
-   align-content: row;
-   width: 75%;
+   width: 50%;
+   height: auto;
+
 }
 
 .about-liz>h2{
@@ -103,11 +107,27 @@ h4{
    background-color: red;
    display: flex;
    flex-direction: row;
-   align-content: space-around;
+   align-content: space-between;
    align-content: center;
+   justify-content: space-evenly;
    margin: 2%;
-   width: 30%;
+   width: 40%;
+   padding: 2%;
    
+}
+
+aside{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   float: right;
+   margin-left: 7%;
+   margin-top: 2%;
+   background-color: black;
+   color: white;
+   width: 15%;
+   height:auto;
+   padding-right: 2%;
 }
 
 footer{
@@ -115,4 +135,20 @@ footer{
    color: white;
    justify-content: center;
    padding: 2em;
+   display: flex;
+   flex-direction: row;
+}
+
+footer>img{
+   width: 25px;
+   height: 25px;
+   justify-items: center;
+}
+
+#portfolio{
+   color: white;
+   background-color: black;
+   padding: 3%;
+   margin-top: 5%;
+   margin-bottom: 5%;
 }
