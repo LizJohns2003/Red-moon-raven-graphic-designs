@@ -1,6 +1,8 @@
 
-
-img{
+html{
+   margin: 0%;
+}
+.navigation>img{
    width: 50px;
    height: 50px;
 }
@@ -27,9 +29,82 @@ html{
    font-family: 'Raleway', sans-serif;
 }
 
+.banner{
+   width: 100%;
+   height: auto;
+   margin: 0%;
+   justify-content: center;
+   background-color: black;
+}
+
 main{
-   margin-left: 10%;
-   margin-right: 10%;
+   margin-left: 15%;
+   margin-right: 15%;
+   text-align: center;
+}
+
+.poster-examples{
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-content: center;
+   background-color: black;
+}
+
+.our-mission{
+   background-color: black;
+   color: white;
+   margin-left: 15%;
+   margin-right: 15%;
+   padding: 5%;
+}
+
+.about-liz>img{
+width:25%;
+height:25%;
+margin: 2%;
+}
+
+.about-liz{
+   display: flex;
+   background-color: rgb(210, 209, 209);
+   padding: 10%;
+   margin-top: 5%;
+   margin-bottom: 0%;
+   text-align: left;
+   align-content: row;
+   width: 75%;
+}
+
+.about-liz>h2{
+   margin: 2%;
+   color: gray;
+}
+
+figcaption{
+   color: gray;
+   margin-bottom: 5%;
+}
+
+.quote{
+   margin-bottom: 10%;
+
+}
+
+main>article>p:first-child{
+   text-indent: 3em;
+}
+
+h4{
+   text-shadow: 2px 2px rgb(218, 194, 194);
+}
+
+.business-socials{
+   background-color: red;
+   align-content: center;
+   margin: 2%;
+   width: 30%;
+   
 }
 
 footer{
