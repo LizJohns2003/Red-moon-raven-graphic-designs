@@ -101,6 +101,9 @@ h4{
 
 .business-socials{
    background-color: red;
+   display: flex;
+   flex-direction: row;
+   align-content: space-around;
    align-content: center;
    margin: 2%;
    width: 30%;
