@@ -1,6 +1,40 @@
 
 
-header> img{
-   width: 15%;
-   height: auto;
+img{
+   width: 50px;
+   height: 50px;
+}
+
+.navigation{
+   display: flex;
+   flex-direction: row;
+   align-content: flex-start;
+   justify-content: flex-start;
+   background-color: black;
+   color: white;
+   margin: 0%;
+   padding: .5 em;
+   
+}
+
+a{
+   color: red;
+}
+a:visited{color:white}
+a:hover{color:blueviolet}
+a:focus{color:aqua}
+html{
+   font-family: 'Raleway', sans-serif;
+}
+
+main{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+footer{
+   background-color: black;
+   color: white;
+   justify-content: center;
+   padding: 2em;
 }
