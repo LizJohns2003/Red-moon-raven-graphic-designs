@@ -1,7 +1,22 @@
 
 html{
    margin: 0%;
+   line-height: 1.5em;
 }
+
+p{
+   font-size: 13pt;
+   font-weight: normal;
+   font-style: normal;
+   text-indent: 2em;
+}
+
+h2{
+   text-transform: uppercase;
+   text-decoration: underline;
+}
+
+/* add space between logo in nav and name*/
 .navigation>img{
    width: 50px;
    height: 50px;
@@ -151,4 +166,8 @@ footer>img{
    padding: 3%;
    margin-top: 5%;
    margin-bottom: 5%;
+}
+
+button{
+   background-color: black;
 }
