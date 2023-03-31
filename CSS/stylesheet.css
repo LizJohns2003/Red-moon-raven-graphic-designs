@@ -20,6 +20,7 @@ h2{
 .navigation>img{
    width: 50px;
    height: 50px;
+   margin: 1em;
 }
 
 .navigation{
@@ -37,11 +38,16 @@ h2{
 a{
    color: red;
 }
-a:visited{color:white}
-a:hover{color:blueviolet}
-a:focus{color:aqua}
+a:visited{color:white;}
+a:hover{color:blueviolet;}
+a:focus{color:aqua;}
 html{
    font-family: 'Raleway', sans-serif;
+}
+
+#hire-us>img{
+   width: 500px;
+   height: auto;
 }
 
 
@@ -66,6 +72,12 @@ main{
    display: flex;
    justify-content: left;
    margin: 0%;
+}
+
+.poster-examples>img{
+   margin-top: 0%;
+   width: 100px;
+   height: 200px;
 }
 
 .our-mission{
@@ -168,6 +180,20 @@ footer>img{
    margin-bottom: 5%;
 }
 
+#portfolio>img{
+   width: 70%;
+   display: flex;
+   justify-content: center;
+}
+
 button{
    background-color: black;
+   display: flex;
+   justify-content: center;
+}
+
+#contact-info{
+   background-color: rgb(200, 199, 199);
+   padding: 5%;
+   margin-bottom: 10%;
 }
