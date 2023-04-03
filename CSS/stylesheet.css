@@ -16,6 +16,19 @@ h2{
    text-decoration: underline;
 }
 
+.skip-links{
+   position: absolute;
+   top: -40px;
+   left: 0;
+   color: white;
+   padding: 8px;
+   z-index: 100;
+}
+
+.skip-links:focus{
+   top: 0;
+}
+
 /* add space between logo in nav and name*/
 .navigation>img{
    width: 50px;
