@@ -48,6 +48,11 @@ h2{
    
 }
 
+.header>img{
+   width: 100%;
+   height: auto;
+}
+
 a{
    color: red;
 }
